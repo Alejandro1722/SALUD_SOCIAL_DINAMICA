@@ -1,0 +1,29 @@
+{
+  "name": "apirest_nodejs_dinamica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-xml": "^1.0.1",
+    "follow-redirects": "^1.15.2",
+    "gh-pages": "^4.0.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "xml-writer": "^1.7.0",
+    "xml2js": "^0.4.23"
+  }
+}
