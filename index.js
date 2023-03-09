@@ -17,7 +17,7 @@ app.use(morgan('dev'))
 app.use(xmlParser)
 
 // Routes
-app.use(process.env.API.toString(), require('./routes/CargaOrdenes'))
+app.use(process.env.API.toString(), require('./src/routes/CargaOrdenes'))
 
 // Starting the server
 app.listen(app.get('port'), () => {

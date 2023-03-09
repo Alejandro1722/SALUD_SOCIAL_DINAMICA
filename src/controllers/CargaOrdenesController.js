@@ -18,8 +18,8 @@ const enviarOrdenes = (req, res) => {
             'Content-Type': 'application/xml'
         },
         data : xml,
-        key: fs.readFileSync("src/ssc/ca.key"),
-        cert: fs.readFileSync("src/ssc/ca.pem")
+        // key: fs.readFileSync("src/ssc/ca.key"),
+        // cert: fs.readFileSync("src/ssc/ca.pem")
     };     
     
     axios(config)
