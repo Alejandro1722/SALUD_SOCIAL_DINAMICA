@@ -4,7 +4,7 @@ const axios = require('axios')
 const fs = require("fs")
    
 const iniciarApi = (req, res) => {
-    res.end('API NODE_JS INICIADA')
+    res.end('<h1>API NODE_JS INICIADA</h1>')
 }
 
 const enviarOrdenes = (req, res) => {
